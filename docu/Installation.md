@@ -2,11 +2,11 @@
 
 ### Option 1: Using the Release version (Recommended)
 
-In Eclipse, go to *Help* > *Install New Software...*. To install the latest version of the ROS tooling, add the update site URL [http://ros-model.seronet-project.de/updatesite/latest/](http://ros-model.seronet-project.de/updatesite/latest/) in the *Work with* section. If you wish to install an earlier version instead, go to the [the update site](http://ros-model.seronet-project.de/updatesite/), choose the desired version and copy its URL.
+In Eclipse, go to *Help* > *Install New Software...*. To install the latest version of the ROS tooling, add the update site URL [http://ros-model.seronet-project.de/updatesite/latest/](http://ros-model.seronet-project.de/updatesite/latest/) in the *Work with* section. If no package is listed, please uncheck the option *Group items by category*. If you wish to install an earlier version instead, go to the [the update site](http://ros-model.seronet-project.de/updatesite/), choose the desired version and copy its URL. 
 
 ![alt text](images/install_updatesite.png)
 
-If none package is listed, please uncheck the option *Group items by category*. The category *ROS Model* appears in the *Name* area. Check the box in front of *ROS model* and click *Next* to review the list of items to be installed. Click *Next* again to read and accept the terms of the license agreements and afterwards click *Finish*. Eclipse will then start to install the ROS tooling and its dependencies. If you get a security warning about the authenticity, click OK. Finally, when asked, restart Eclipse to complete the installation process.
+ The category *ROS Model* appears in the *Name* area. Check the box in front of *ROS model* and click *Next* to review the list of items to be installed. Click *Next* again to read and accept the terms of the license agreements and afterwards click *Finish*. Eclipse will then start to install the ROS tooling and its dependencies. If you get a security warning about the authenticity, click OK. Finally, when asked, restart Eclipse to complete the installation process.
 
 To start using the ROS tooling continue with the [step 1](#1-switch-to-the-ros-developer-perspective)
 
@@ -60,4 +60,4 @@ If you have internet a button can clone from GitHub the objects to your workspac
 
 ![alt text](images/clone_and_import.png)
 
-Now that your workspace is setup, you can start creating your [project and defining your ROS system](#Tutorials)
+Now that your workspace is setup, you can start creating your [project and defining your ROS system](../README.md#Tutorials)
